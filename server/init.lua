@@ -1,7 +1,4 @@
-LIB = nil
 local oldMsgID = nil
-
-TriggerEvent('lib:getClass', function(obj) LIB = obj end)
 
 Citizen.CreateThread(function()
     DiscordAPI.SendMessageDebug('Bot initialiser')
